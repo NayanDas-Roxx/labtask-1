@@ -84,7 +84,7 @@
     } else {
       $gender = test_input($_POST["gender"]);
     }
-  }
+  
 
 /*Degree validation*/
 
@@ -113,7 +113,7 @@ if(!isset($_POST["bloodGroup"]))
   }
 
 
-
+}
 
 
   function test_input($data) {
@@ -136,9 +136,9 @@ if(!isset($_POST["bloodGroup"]))
               <input type="text" name="name"> <span class=" err">*
                 <?php 
 
-                    if(isset($nameErr)){
+                    
                       echo "$nameErr";
-                    }
+                    
 
                 ?>
 
