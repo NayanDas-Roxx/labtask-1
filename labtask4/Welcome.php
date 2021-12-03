@@ -8,7 +8,7 @@
 
 session_start();
 
-if (isset($_SESSION['user_name'])){ require 'Logged In Dashboard.php';}
+if (isset($_SESSION['user_name'])){ require 'Logged In dashboard.php';}
 else
 {
 	require 'top.php';
@@ -17,6 +17,10 @@ else
  ?>
 <h1 style="text-align: center;
   margin: 20% 0;">Welcome to  the online Book Shop</h1>  	
-<?php require 'footer.php';?>
+
+
+<div>
+  <?php require_once "../controller/footer.php" ;?>
+</div>
 </body>
 </html>

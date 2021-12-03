@@ -18,7 +18,7 @@
 </head>
 <body>
 <header class="grid-container," style="
-margin-top: 50px;">
+margin-top: 50px;"></header>
 <div class="left">
 	<h1 style="margin: auto;">The Book Spot</h1>
 </div>	
